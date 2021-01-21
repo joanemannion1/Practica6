@@ -1,4 +1,4 @@
-require_relative "../lib/Prct06/racional"
+require_relative "../lib/gema/racional"
 
 RSpec.describe Gema do
         context Racional do
@@ -19,7 +19,7 @@ RSpec.describe Gema do
 	    		 expect(@r1.d).to eq(2)
 	    	 end
 	    	 it "Se crea una cadena con el numero racional formateado" do 
-	    		 expect(@or1.to_s).to eq("1/2")
+	    		 expect(@r1.to_s).to eq("1/2")
 	    	 end
 		end
 
